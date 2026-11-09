@@ -1,0 +1,18 @@
+/* page-specific styles carried over from the approved design */
+@keyframes inqPulse{0%,100%{opacity:.35;transform:scale(1)}50%{opacity:.9;transform:scale(1.12)}}
+@media (max-width:640px){section{padding-left:20px !important;padding-right:20px !important}}
+select{appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 49%,#9FB0C6 50%),linear-gradient(-45deg,transparent 49%,#9FB0C6 50%);background-position:calc(100% - 20px) 55%,calc(100% - 14px) 55%;background-size:6px 6px,6px 6px;background-repeat:no-repeat;padding-right:42px;cursor:pointer}
+@media (max-width:860px){[data-sd-out]{grid-template-columns:minmax(0,1fr) !important}}
+#solutions{transition:top .35s cubic-bezier(.22,.7,.3,1)}
+@media (max-width:640px){
+    [aria-label^="Six INQVEXA solutions"]{aspect-ratio:auto!important;max-width:100%!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:18px 0 4px;translate:none!important}
+    [aria-label^="Six INQVEXA solutions"] > svg,[aria-label^="Six INQVEXA solutions"] > div:first-child{display:none!important}
+    [aria-label^="Six INQVEXA solutions"] > div[data-hv-bob]{position:relative!important;left:auto!important;top:auto!important;translate:none!important;animation:none!important;white-space:normal!important;min-height:46px;font-size:13px!important;line-height:1.25;padding:10px 12px!important}
+    [aria-label^="Six INQVEXA solutions"] > div:last-child{position:relative!important;left:auto!important;top:auto!important;transform:none!important;grid-column:1/-1;order:-1;display:flex;align-items:center;justify-content:center;gap:12px;padding:12px 16px!important}
+    [aria-label^="Six INQVEXA solutions"] > div:last-child > div:last-child{margin-top:0!important}
+  }
+.hv-solutions-0:hover{transform:translateY(-4px)!important;box-shadow:0 18px 40px rgba(11,22,40,.09)!important}
+.hv-solutions-1:hover{transform:translateY(-4px)!important;box-shadow:0 18px 40px rgba(11,22,40,.09)!important}
+.hv-solutions-2:hover{transform:translateY(-4px)!important;box-shadow:0 18px 40px rgba(11,22,40,.09)!important}
+.hv-solutions-3:hover{transform:translateY(-2px)!important;color:#fff!important}
+.hv-solutions-4:hover{background:rgba(255,255,255,.07)!important;color:#fff!important}

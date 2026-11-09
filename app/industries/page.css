@@ -1,0 +1,28 @@
+/* page-specific styles carried over from the approved design */
+@keyframes inqRise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@media (max-width:640px){section{padding-left:20px !important;padding-right:20px !important}}
+select{appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 49%,#9FB0C6 50%),linear-gradient(-45deg,transparent 49%,#9FB0C6 50%);background-position:calc(100% - 20px) 55%,calc(100% - 14px) 55%;background-size:6px 6px,6px 6px;background-repeat:no-repeat;padding-right:42px;cursor:pointer}
+@media (max-width:640px){
+    [aria-label^="Seven business environments"]{aspect-ratio:auto!important;max-width:100%!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:18px 0 4px;translate:none!important}
+    [aria-label^="Seven business environments"] > svg,[aria-label^="Seven business environments"] > div:first-child{display:none!important}
+    [aria-label^="Seven business environments"] > div[data-hv-bob]{position:relative!important;left:auto!important;top:auto!important;translate:none!important;transform:none!important;animation:none!important;white-space:normal!important;min-height:54px;display:flex!important;align-items:center;justify-content:center;text-align:center;font-size:13px!important;line-height:1.25;padding:10px 12px!important}
+    [aria-label^="Seven business environments"] > div[data-hv-bob]:nth-last-child(2){grid-column:1/-1}
+    [aria-label^="Seven business environments"] > div:last-child{position:relative!important;left:auto!important;top:auto!important;transform:none!important;grid-column:1/-1;order:-1;padding:12px 16px!important}
+  }
+.hv-industries-0:hover{transform:translateY(-4px)!important;box-shadow:0 22px 48px rgba(11,22,40,.1)!important;border-color:#CBD6E4!important}
+.hv-industries-1:hover{transform:translateY(-4px)!important;box-shadow:0 22px 48px rgba(11,22,40,.1)!important;border-color:#CBD6E4!important}
+.hv-industries-2:hover{transform:translateY(-4px)!important;box-shadow:0 22px 48px rgba(11,22,40,.1)!important;border-color:#CBD6E4!important}
+.hv-industries-3:hover{transform:translateY(-4px)!important;box-shadow:0 22px 48px rgba(11,22,40,.1)!important;border-color:#CBD6E4!important}
+.hv-industries-4:hover{transform:translateY(-4px)!important;box-shadow:0 22px 48px rgba(11,22,40,.1)!important;border-color:#CBD6E4!important}
+.hv-industries-5:hover{transform:translateY(-4px)!important;box-shadow:0 22px 48px rgba(11,22,40,.1)!important;border-color:#CBD6E4!important}
+.hv-industries-6:hover{transform:translateY(-4px)!important;box-shadow:0 22px 48px rgba(11,22,40,.1)!important;border-color:#CBD6E4!important}
+.hv-industries-7:hover{transform:translateY(-4px)!important;box-shadow:0 22px 48px rgba(11,22,40,.1)!important;border-color:#CBD6E4!important}
+.hv-industries-8:hover{transform:translateY(-4px)!important;border-color:rgba(240,145,63,.45)!important}
+.hv-industries-9:hover{transform:translateY(-4px)!important;border-color:rgba(240,145,63,.45)!important}
+.hv-industries-10:hover{transform:translateY(-4px)!important;border-color:rgba(240,145,63,.45)!important}
+.hv-industries-11:hover{transform:translateY(-4px)!important;border-color:rgba(240,145,63,.45)!important}
+.hv-industries-12:hover{transform:translateY(-4px)!important;border-color:rgba(240,145,63,.45)!important}
+.hv-industries-13:hover{transform:translateY(-4px)!important;border-color:rgba(240,145,63,.45)!important}
+.hv-industries-14:hover{transform:translateY(-4px)!important;border-color:#E25822!important;color:#0B1628!important}
+.hv-industries-15:hover{transform:translateY(-4px)!important;border-color:#E25822!important;color:#0B1628!important}
+.hv-industries-16:hover{transform:translateY(-4px)!important;border-color:#E25822!important;color:#0B1628!important}
